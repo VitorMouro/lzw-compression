@@ -34,6 +34,7 @@ int main(int argc, char const *argv[])
         case 1:
             cout << "Saída:" << endl;
             cout << output.size() << " bytes" << endl;
+            cout << output << endl;
             for (auto &&c : output)
             {
                 cout << bitset<8>(c).to_string() << " ";
