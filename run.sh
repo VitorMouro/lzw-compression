@@ -1,1 +1,0 @@
-g++ -O2 *.cpp -o main && ./main
